@@ -38,7 +38,7 @@ class UserTest {
 	@Test
 	void newUserTest() {
 		assertTrue(newUser != null);
-		assertEquals(newUser.getUsername(), "Mate");
+		assertEquals(newUser.getUsername(), "mate");
 		assertTrue(newUser.getMediaList() != null);
 		assertEquals(0,newUser.getMediaList().size());
 	}
@@ -175,12 +175,12 @@ class UserTest {
 	@Test
 	void UserTest4() {
 		assertTrue(newUser != null);
-		assertEquals(newUser.getUsername(), "Mate");
+		assertEquals(newUser.getUsername(), "mate");
 		assertTrue(newUser.getMediaList() != null);
 		assertEquals(newUser.getMediaList().size(), 0);
-		User user1 = new User("Herman");
+		User user1 = new User("herman");
 		assertTrue(user1 != null);
-		assertEquals(user1.getUsername(), "Herman");
+		assertEquals(user1.getUsername(), "herman");
 		assertTrue(user1.getMediaList() != null);
 		assertEquals(user1.getMediaList().size(), 0);
 		assertTrue(newUser != user1);
@@ -195,12 +195,12 @@ class UserTest {
 	@Test
 	void UserTest4_1() throws ParseException {
 		assertTrue(newUser != null);
-		assertEquals(newUser.getUsername(), "Mate");
+		assertEquals(newUser.getUsername(), "mate");
 		assertTrue(newUser.getMediaList() != null);
 		assertEquals(newUser.getMediaList().size(), 0);
-		User user1 = new User("Herman");
+		User user1 = new User("herman");
 		assertTrue(user1 != null);
-		assertEquals(user1.getUsername(), "Herman");
+		assertEquals(user1.getUsername(), "herman");
 		assertTrue(user1.getMediaList() != null);
 		assertEquals(user1.getMediaList().size(), 0);
 		assertTrue(newUser != user1);
@@ -220,12 +220,12 @@ class UserTest {
 	@Test
 	void UserTest4_2() throws ParseException {
 		assertTrue(newUser != null);
-		assertEquals(newUser.getUsername(), "Mate");
+		assertEquals(newUser.getUsername(), "mate");
 		assertTrue(newUser.getMediaList() != null);
 		assertEquals(newUser.getMediaList().size(), 0);
-		User user1 = new User("Herman");
+		User user1 = new User("herman");
 		assertTrue(user1 != null);
-		assertEquals(user1.getUsername(), "Herman");
+		assertEquals(user1.getUsername(), "herman");
 		assertTrue(user1.getMediaList() != null);
 		assertEquals(user1.getMediaList().size(), 0);
 		assertTrue(newUser != user1);
@@ -248,12 +248,12 @@ class UserTest {
 	@Test
 	void UserTest4_3() throws ParseException {
 		assertTrue(newUser != null);
-		assertEquals(newUser.getUsername(), "Mate");
+		assertEquals(newUser.getUsername(), "mate");
 		assertTrue(newUser.getMediaList() != null);
 		assertEquals(newUser.getMediaList().size(), 0);
-		User user1 = new User("Herman");
+		User user1 = new User("herman");
 		assertTrue(user1 != null);
-		assertEquals(user1.getUsername(), "Herman");
+		assertEquals(user1.getUsername(), "herman");
 		assertTrue(user1.getMediaList() != null);
 		assertEquals(user1.getMediaList().size(), 0);
 		assertTrue(newUser != user1);
@@ -275,12 +275,12 @@ class UserTest {
 	@Test
 	void UserTest4_4() throws ParseException {
 		assertTrue(newUser != null);
-		assertEquals(newUser.getUsername(), "Mate");
+		assertEquals(newUser.getUsername(), "mate");
 		assertTrue(newUser.getMediaList() != null);
 		assertEquals(newUser.getMediaList().size(), 0);
-		User user1 = new User("Herman");
+		User user1 = new User("herman");
 		assertTrue(user1 != null);
-		assertEquals(user1.getUsername(), "Herman");
+		assertEquals(user1.getUsername(), "herman");
 		assertTrue(user1.getMediaList() != null);
 		assertEquals(user1.getMediaList().size(), 0);
 		assertTrue(newUser != user1);
