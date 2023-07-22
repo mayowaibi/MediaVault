@@ -1,7 +1,5 @@
 # MediaVault
 
-Created by group 3 of EECS2311.
-
 ## Description
 MediaVault is a software application with the main purpose of storing a collection of media, and allowing users to keep track of their progress in them. 
 
